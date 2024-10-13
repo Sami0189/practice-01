@@ -5,13 +5,14 @@
 }
 
 /* header section */
-header{
+/* header{
   padding: 40px 60px;
-}
+} */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 40px;
 }
 nav ul {
   display: flex;
@@ -25,6 +26,7 @@ nav li {
 .header-title {
   display: flex;
   justify-content: space-between;
+  padding: 40px;
 }
 .header-button {
   color: aliceblue;
@@ -43,6 +45,7 @@ font-weight: 700;
 display: grid;
 grid-template-columns: repeat(7,1fr);
   margin-top: 200px;
+  margin-left: 100px;
 }
          /* body start */
 .body-img{
@@ -69,8 +72,8 @@ text-align: left;
 border: 0px;
 background: rgb(224, 44, 109);
 position: absolute;
-right: 440px;
-top:158rem;
+right: 455px;
+top:162rem;
 border-radius: 20px;
 }
 .body-last-part{
@@ -98,7 +101,7 @@ border-radius: 20px;
   background: rgb(10, 8, 38);
   padding: 20px;
   color: aliceblue;
-  width: 98.3%;
+  width: 100%%;
 }
 
     
